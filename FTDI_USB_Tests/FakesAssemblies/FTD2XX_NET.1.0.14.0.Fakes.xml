@@ -1,0 +1,1058 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FTD2XX_NET.1.0.14.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI">
+            <summary>Shim type of FTD2XX_NET.FTDI</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.#ctor(FTD2XX_NET.FTDI)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.Close">
+            <summary>Sets the shim of FTDI.Close()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.CyclePort">
+            <summary>Sets the shim of FTDI.CyclePort()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.EEReadUserAreaByteArrayUInt32Ref">
+            <summary>Sets the shim of FTDI.EEReadUserArea(Byte[] UserAreaDataBuffer, UInt32&amp; numBytesRead)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.EEUserAreaSizeUInt32Ref">
+            <summary>Sets the shim of FTDI.EEUserAreaSize(UInt32&amp; UASize)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.EEWriteUserAreaByteArray">
+            <summary>Sets the shim of FTDI.EEWriteUserArea(Byte[] UserAreaDataBuffer)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.EraseEEPROM">
+            <summary>Sets the shim of FTDI.EraseEEPROM()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetCOMPortStringOut">
+            <summary>Sets the shim of FTDI.GetCOMPort(String&amp; ComPortName)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetDescriptionStringOut">
+            <summary>Sets the shim of FTDI.GetDescription(String&amp; Description)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetDeviceIDUInt32Ref">
+            <summary>Sets the shim of FTDI.GetDeviceID(UInt32&amp; DeviceID)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetDeviceListFTDIFT_DEVICE_INFO_NODEArray">
+            <summary>Sets the shim of FTDI.GetDeviceList(FT_DEVICE_INFO_NODE[] devicelist)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetDeviceTypeFTDIFT_DEVICERef">
+            <summary>Sets the shim of FTDI.GetDeviceType(FT_DEVICE&amp; DeviceType)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetDriverVersionUInt32Ref">
+            <summary>Sets the shim of FTDI.GetDriverVersion(UInt32&amp; DriverVersion)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetEventTypeUInt32Ref">
+            <summary>Sets the shim of FTDI.GetEventType(UInt32&amp; EventType)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetLatencyByteRef">
+            <summary>Sets the shim of FTDI.GetLatency(Byte&amp; Latency)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetLibraryVersionUInt32Ref">
+            <summary>Sets the shim of FTDI.GetLibraryVersion(UInt32&amp; LibraryVersion)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetLineStatusByteRef">
+            <summary>Sets the shim of FTDI.GetLineStatus(Byte&amp; LineStatus)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetModemStatusByteRef">
+            <summary>Sets the shim of FTDI.GetModemStatus(Byte&amp; ModemStatus)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetNumberOfDevicesUInt32Ref">
+            <summary>Sets the shim of FTDI.GetNumberOfDevices(UInt32&amp; devcount)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetPinStatesByteRef">
+            <summary>Sets the shim of FTDI.GetPinStates(Byte&amp; BitMode)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetRxBytesAvailableUInt32Ref">
+            <summary>Sets the shim of FTDI.GetRxBytesAvailable(UInt32&amp; RxQueue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetSerialNumberStringOut">
+            <summary>Sets the shim of FTDI.GetSerialNumber(String&amp; SerialNumber)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.GetTxBytesWaitingUInt32Ref">
+            <summary>Sets the shim of FTDI.GetTxBytesWaiting(UInt32&amp; TxQueue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.InTransferSizeUInt32">
+            <summary>Sets the shim of FTDI.InTransferSize(UInt32 InTransferSize)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.InterfaceIdentifierGet">
+            <summary>Sets the shim of FTDI.get_InterfaceIdentifier()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.IsOpenGet">
+            <summary>Sets the shim of FTDI.get_IsOpen()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.OpenByDescriptionString">
+            <summary>Sets the shim of FTDI.OpenByDescription(String description)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.OpenByIndexUInt32">
+            <summary>Sets the shim of FTDI.OpenByIndex(UInt32 index)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.OpenByLocationUInt32">
+            <summary>Sets the shim of FTDI.OpenByLocation(UInt32 location)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.OpenBySerialNumberString">
+            <summary>Sets the shim of FTDI.OpenBySerialNumber(String serialnumber)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.PurgeUInt32">
+            <summary>Sets the shim of FTDI.Purge(UInt32 purgemask)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadByteArrayUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Read(Byte[] dataBuffer, UInt32 numBytesToRead, UInt32&amp; numBytesRead)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadEEPROMLocationUInt32UInt16Ref">
+            <summary>Sets the shim of FTDI.ReadEEPROMLocation(UInt32 Address, UInt16&amp; EEValue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT2232EEPROMFTDIFT2232_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT2232EEPROM(FT2232_EEPROM_STRUCTURE ee2232)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT2232HEEPROMFTDIFT2232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT2232HEEPROM(FT2232H_EEPROM_STRUCTURE ee2232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT232BEEPROMFTDIFT232B_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232BEEPROM(FT232B_EEPROM_STRUCTURE ee232b)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT232HEEPROMFTDIFT232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232HEEPROM(FT232H_EEPROM_STRUCTURE ee232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT232REEPROMFTDIFT232R_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232REEPROM(FT232R_EEPROM_STRUCTURE ee232r)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadFT4232HEEPROMFTDIFT4232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT4232HEEPROM(FT4232H_EEPROM_STRUCTURE ee4232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadStringOutUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Read(String&amp; dataBuffer, UInt32 numBytesToRead, UInt32&amp; numBytesRead)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReadXSeriesEEPROMFTDIFT_XSERIES_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadXSeriesEEPROM(FT_XSERIES_EEPROM_STRUCTURE eeX)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ReloadUInt16UInt16">
+            <summary>Sets the shim of FTDI.Reload(UInt16 VendorID, UInt16 ProductID)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.Rescan">
+            <summary>Sets the shim of FTDI.Rescan()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ResetDevice">
+            <summary>Sets the shim of FTDI.ResetDevice()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.ResetPort">
+            <summary>Sets the shim of FTDI.ResetPort()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.RestartInTask">
+            <summary>Sets the shim of FTDI.RestartInTask()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetBaudRateUInt32">
+            <summary>Sets the shim of FTDI.SetBaudRate(UInt32 BaudRate)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetBitModeByteByte">
+            <summary>Sets the shim of FTDI.SetBitMode(Byte Mask, Byte BitMode)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetBreakBoolean">
+            <summary>Sets the shim of FTDI.SetBreak(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetCharactersByteBooleanByteBoolean">
+            <summary>Sets the shim of FTDI.SetCharacters(Byte EventChar, Boolean EventCharEnable, Byte ErrorChar, Boolean ErrorCharEnable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetDTRBoolean">
+            <summary>Sets the shim of FTDI.SetDTR(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetDataCharacteristicsByteByteByte">
+            <summary>Sets the shim of FTDI.SetDataCharacteristics(Byte DataBits, Byte StopBits, Byte Parity)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetDeadmanTimeoutUInt32">
+            <summary>Sets the shim of FTDI.SetDeadmanTimeout(UInt32 DeadmanTimeout)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetFlowControlUInt16ByteByte">
+            <summary>Sets the shim of FTDI.SetFlowControl(UInt16 FlowControl, Byte Xon, Byte Xoff)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetLatencyByte">
+            <summary>Sets the shim of FTDI.SetLatency(Byte Latency)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetRTSBoolean">
+            <summary>Sets the shim of FTDI.SetRTS(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetResetPipeRetryCountUInt32">
+            <summary>Sets the shim of FTDI.SetResetPipeRetryCount(UInt32 ResetPipeRetryCount)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.SetTimeoutsUInt32UInt32">
+            <summary>Sets the shim of FTDI.SetTimeouts(UInt32 ReadTimeout, UInt32 WriteTimeout)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.StopInTask">
+            <summary>Sets the shim of FTDI.StopInTask()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteByteArrayInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(Byte[] dataBuffer, Int32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteByteArrayUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(Byte[] dataBuffer, UInt32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteEEPROMLocationUInt32UInt16">
+            <summary>Sets the shim of FTDI.WriteEEPROMLocation(UInt32 Address, UInt16 EEValue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT2232EEPROMFTDIFT2232_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT2232EEPROM(FT2232_EEPROM_STRUCTURE ee2232)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT2232HEEPROMFTDIFT2232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT2232HEEPROM(FT2232H_EEPROM_STRUCTURE ee2232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT232BEEPROMFTDIFT232B_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232BEEPROM(FT232B_EEPROM_STRUCTURE ee232b)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT232HEEPROMFTDIFT232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232HEEPROM(FT232H_EEPROM_STRUCTURE ee232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT232REEPROMFTDIFT232R_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232REEPROM(FT232R_EEPROM_STRUCTURE ee232r)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteFT4232HEEPROMFTDIFT4232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT4232HEEPROM(FT4232H_EEPROM_STRUCTURE ee4232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteStringInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(String dataBuffer, Int32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteStringUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(String dataBuffer, UInt32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.AllInstances.WriteXSeriesEEPROMFTDIFT_XSERIES_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteXSeriesEEPROM(FT_XSERIES_EEPROM_STRUCTURE eeX)</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.Close">
+            <summary>Sets the shim of FTDI.Close()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.Constructor">
+            <summary>Sets the shim of FTDI.FTDI()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.CyclePort">
+            <summary>Sets the shim of FTDI.CyclePort()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.EEReadUserAreaByteArrayUInt32Ref">
+            <summary>Sets the shim of FTDI.EEReadUserArea(Byte[] UserAreaDataBuffer, UInt32&amp; numBytesRead)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.EEUserAreaSizeUInt32Ref">
+            <summary>Sets the shim of FTDI.EEUserAreaSize(UInt32&amp; UASize)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.EEWriteUserAreaByteArray">
+            <summary>Sets the shim of FTDI.EEWriteUserArea(Byte[] UserAreaDataBuffer)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.EraseEEPROM">
+            <summary>Sets the shim of FTDI.EraseEEPROM()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetCOMPortStringOut">
+            <summary>Sets the shim of FTDI.GetCOMPort(String&amp; ComPortName)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetDescriptionStringOut">
+            <summary>Sets the shim of FTDI.GetDescription(String&amp; Description)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetDeviceIDUInt32Ref">
+            <summary>Sets the shim of FTDI.GetDeviceID(UInt32&amp; DeviceID)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetDeviceListFTDIFT_DEVICE_INFO_NODEArray">
+            <summary>Sets the shim of FTDI.GetDeviceList(FT_DEVICE_INFO_NODE[] devicelist)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetDeviceTypeFTDIFT_DEVICERef">
+            <summary>Sets the shim of FTDI.GetDeviceType(FT_DEVICE&amp; DeviceType)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetDriverVersionUInt32Ref">
+            <summary>Sets the shim of FTDI.GetDriverVersion(UInt32&amp; DriverVersion)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetEventTypeUInt32Ref">
+            <summary>Sets the shim of FTDI.GetEventType(UInt32&amp; EventType)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetLatencyByteRef">
+            <summary>Sets the shim of FTDI.GetLatency(Byte&amp; Latency)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetLibraryVersionUInt32Ref">
+            <summary>Sets the shim of FTDI.GetLibraryVersion(UInt32&amp; LibraryVersion)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetLineStatusByteRef">
+            <summary>Sets the shim of FTDI.GetLineStatus(Byte&amp; LineStatus)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetModemStatusByteRef">
+            <summary>Sets the shim of FTDI.GetModemStatus(Byte&amp; ModemStatus)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetNumberOfDevicesUInt32Ref">
+            <summary>Sets the shim of FTDI.GetNumberOfDevices(UInt32&amp; devcount)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetPinStatesByteRef">
+            <summary>Sets the shim of FTDI.GetPinStates(Byte&amp; BitMode)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetRxBytesAvailableUInt32Ref">
+            <summary>Sets the shim of FTDI.GetRxBytesAvailable(UInt32&amp; RxQueue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetSerialNumberStringOut">
+            <summary>Sets the shim of FTDI.GetSerialNumber(String&amp; SerialNumber)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.GetTxBytesWaitingUInt32Ref">
+            <summary>Sets the shim of FTDI.GetTxBytesWaiting(UInt32&amp; TxQueue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.InTransferSizeUInt32">
+            <summary>Sets the shim of FTDI.InTransferSize(UInt32 InTransferSize)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.InterfaceIdentifierGet">
+            <summary>Sets the shim of FTDI.get_InterfaceIdentifier()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.IsOpenGet">
+            <summary>Sets the shim of FTDI.get_IsOpen()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.OpenByDescriptionString">
+            <summary>Sets the shim of FTDI.OpenByDescription(String description)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.OpenByIndexUInt32">
+            <summary>Sets the shim of FTDI.OpenByIndex(UInt32 index)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.OpenByLocationUInt32">
+            <summary>Sets the shim of FTDI.OpenByLocation(UInt32 location)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.OpenBySerialNumberString">
+            <summary>Sets the shim of FTDI.OpenBySerialNumber(String serialnumber)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.PurgeUInt32">
+            <summary>Sets the shim of FTDI.Purge(UInt32 purgemask)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadByteArrayUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Read(Byte[] dataBuffer, UInt32 numBytesToRead, UInt32&amp; numBytesRead)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadEEPROMLocationUInt32UInt16Ref">
+            <summary>Sets the shim of FTDI.ReadEEPROMLocation(UInt32 Address, UInt16&amp; EEValue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT2232EEPROMFTDIFT2232_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT2232EEPROM(FT2232_EEPROM_STRUCTURE ee2232)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT2232HEEPROMFTDIFT2232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT2232HEEPROM(FT2232H_EEPROM_STRUCTURE ee2232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT232BEEPROMFTDIFT232B_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232BEEPROM(FT232B_EEPROM_STRUCTURE ee232b)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT232HEEPROMFTDIFT232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232HEEPROM(FT232H_EEPROM_STRUCTURE ee232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT232REEPROMFTDIFT232R_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT232REEPROM(FT232R_EEPROM_STRUCTURE ee232r)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadFT4232HEEPROMFTDIFT4232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadFT4232HEEPROM(FT4232H_EEPROM_STRUCTURE ee4232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReadXSeriesEEPROMFTDIFT_XSERIES_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.ReadXSeriesEEPROM(FT_XSERIES_EEPROM_STRUCTURE eeX)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ReloadUInt16UInt16">
+            <summary>Sets the shim of FTDI.Reload(UInt16 VendorID, UInt16 ProductID)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.Rescan">
+            <summary>Sets the shim of FTDI.Rescan()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ResetDevice">
+            <summary>Sets the shim of FTDI.ResetDevice()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ResetPort">
+            <summary>Sets the shim of FTDI.ResetPort()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.RestartInTask">
+            <summary>Sets the shim of FTDI.RestartInTask()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetBaudRateUInt32">
+            <summary>Sets the shim of FTDI.SetBaudRate(UInt32 BaudRate)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetBitModeByteByte">
+            <summary>Sets the shim of FTDI.SetBitMode(Byte Mask, Byte BitMode)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetBreakBoolean">
+            <summary>Sets the shim of FTDI.SetBreak(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetCharactersByteBooleanByteBoolean">
+            <summary>Sets the shim of FTDI.SetCharacters(Byte EventChar, Boolean EventCharEnable, Byte ErrorChar, Boolean ErrorCharEnable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetDTRBoolean">
+            <summary>Sets the shim of FTDI.SetDTR(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetDataCharacteristicsByteByteByte">
+            <summary>Sets the shim of FTDI.SetDataCharacteristics(Byte DataBits, Byte StopBits, Byte Parity)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetDeadmanTimeoutUInt32">
+            <summary>Sets the shim of FTDI.SetDeadmanTimeout(UInt32 DeadmanTimeout)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetFlowControlUInt16ByteByte">
+            <summary>Sets the shim of FTDI.SetFlowControl(UInt16 FlowControl, Byte Xon, Byte Xoff)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetLatencyByte">
+            <summary>Sets the shim of FTDI.SetLatency(Byte Latency)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetRTSBoolean">
+            <summary>Sets the shim of FTDI.SetRTS(Boolean Enable)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetResetPipeRetryCountUInt32">
+            <summary>Sets the shim of FTDI.SetResetPipeRetryCount(UInt32 ResetPipeRetryCount)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.SetTimeoutsUInt32UInt32">
+            <summary>Sets the shim of FTDI.SetTimeouts(UInt32 ReadTimeout, UInt32 WriteTimeout)</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT2232H_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT2232H_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232H_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT2232H_EEPROM_STRUCTURE.FT2232H_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT2232_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT2232_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT2232_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT2232_EEPROM_STRUCTURE.FT2232_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT232B_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT232B_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232B_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT232B_EEPROM_STRUCTURE.FT232B_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT232H_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT232H_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232H_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT232H_EEPROM_STRUCTURE.FT232H_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT232R_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT232R_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT232R_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT232R_EEPROM_STRUCTURE.FT232R_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT4232H_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT4232H_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT4232H_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT4232H_EEPROM_STRUCTURE.FT4232H_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_232H_CBUS_OPTIONS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.#ctor(FTD2XX_NET.FTDI.FT_232H_CBUS_OPTIONS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_232H_CBUS_OPTIONS.Constructor">
+            <summary>Sets the shim of FT_232H_CBUS_OPTIONS.FT_232H_CBUS_OPTIONS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_BIT_MODES</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.#ctor(FTD2XX_NET.FTDI.FT_BIT_MODES)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_BIT_MODES.Constructor">
+            <summary>Sets the shim of FT_BIT_MODES.FT_BIT_MODES()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_CBUS_OPTIONS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.#ctor(FTD2XX_NET.FTDI.FT_CBUS_OPTIONS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_CBUS_OPTIONS.Constructor">
+            <summary>Sets the shim of FT_CBUS_OPTIONS.FT_CBUS_OPTIONS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_DATA_BITS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.#ctor(FTD2XX_NET.FTDI.FT_DATA_BITS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DATA_BITS.Constructor">
+            <summary>Sets the shim of FT_DATA_BITS.FT_DATA_BITS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_DEVICE_INFO_NODE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.#ctor(FTD2XX_NET.FTDI.FT_DEVICE_INFO_NODE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DEVICE_INFO_NODE.Constructor">
+            <summary>Sets the shim of FT_DEVICE_INFO_NODE.FT_DEVICE_INFO_NODE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_DRIVE_CURRENT</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.#ctor(FTD2XX_NET.FTDI.FT_DRIVE_CURRENT)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_DRIVE_CURRENT.Constructor">
+            <summary>Sets the shim of FT_DRIVE_CURRENT.FT_DRIVE_CURRENT()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_EEPROM_DATA</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.#ctor(FTD2XX_NET.FTDI.FT_EEPROM_DATA)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EEPROM_DATA.Constructor">
+            <summary>Sets the shim of FT_EEPROM_DATA.FT_EEPROM_DATA()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_EVENTS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.#ctor(FTD2XX_NET.FTDI.FT_EVENTS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EVENTS.Constructor">
+            <summary>Sets the shim of FT_EVENTS.FT_EVENTS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_EXCEPTION</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.#ctor(FTD2XX_NET.FTDI.FT_EXCEPTION)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.Constructor">
+            <summary>Sets the shim of FT_EXCEPTION.FT_EXCEPTION()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the shim of FT_EXCEPTION.FT_EXCEPTION(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.ConstructorString">
+            <summary>Sets the shim of FT_EXCEPTION.FT_EXCEPTION(String message)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_EXCEPTION.ConstructorStringException">
+            <summary>Sets the shim of FT_EXCEPTION.FT_EXCEPTION(String message, Exception inner)</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_FLAGS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.#ctor(FTD2XX_NET.FTDI.FT_FLAGS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLAGS.Constructor">
+            <summary>Sets the shim of FT_FLAGS.FT_FLAGS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_FLOW_CONTROL</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.#ctor(FTD2XX_NET.FTDI.FT_FLOW_CONTROL)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_FLOW_CONTROL.Constructor">
+            <summary>Sets the shim of FT_FLOW_CONTROL.FT_FLOW_CONTROL()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_LINE_STATUS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.#ctor(FTD2XX_NET.FTDI.FT_LINE_STATUS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_LINE_STATUS.Constructor">
+            <summary>Sets the shim of FT_LINE_STATUS.FT_LINE_STATUS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_MODEM_STATUS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.#ctor(FTD2XX_NET.FTDI.FT_MODEM_STATUS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_MODEM_STATUS.Constructor">
+            <summary>Sets the shim of FT_MODEM_STATUS.FT_MODEM_STATUS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_PARITY</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.#ctor(FTD2XX_NET.FTDI.FT_PARITY)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PARITY.Constructor">
+            <summary>Sets the shim of FT_PARITY.FT_PARITY()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_PURGE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.#ctor(FTD2XX_NET.FTDI.FT_PURGE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_PURGE.Constructor">
+            <summary>Sets the shim of FT_PURGE.FT_PURGE()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_STOP_BITS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.#ctor(FTD2XX_NET.FTDI.FT_STOP_BITS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_STOP_BITS.Constructor">
+            <summary>Sets the shim of FT_STOP_BITS.FT_STOP_BITS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_XSERIES_CBUS_OPTIONS</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.#ctor(FTD2XX_NET.FTDI.FT_XSERIES_CBUS_OPTIONS)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_CBUS_OPTIONS.Constructor">
+            <summary>Sets the shim of FT_XSERIES_CBUS_OPTIONS.FT_XSERIES_CBUS_OPTIONS()</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE">
+            <summary>Shim type of FTD2XX_NET.FTDI+FT_XSERIES_EEPROM_STRUCTURE</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.#ctor(FTD2XX_NET.FTDI.FT_XSERIES_EEPROM_STRUCTURE)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.ShimFT_XSERIES_EEPROM_STRUCTURE.Constructor">
+            <summary>Sets the shim of FT_XSERIES_EEPROM_STRUCTURE.FT_XSERIES_EEPROM_STRUCTURE()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.StopInTask">
+            <summary>Sets the shim of FTDI.StopInTask()</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteByteArrayInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(Byte[] dataBuffer, Int32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteByteArrayUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(Byte[] dataBuffer, UInt32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteEEPROMLocationUInt32UInt16">
+            <summary>Sets the shim of FTDI.WriteEEPROMLocation(UInt32 Address, UInt16 EEValue)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT2232EEPROMFTDIFT2232_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT2232EEPROM(FT2232_EEPROM_STRUCTURE ee2232)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT2232HEEPROMFTDIFT2232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT2232HEEPROM(FT2232H_EEPROM_STRUCTURE ee2232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT232BEEPROMFTDIFT232B_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232BEEPROM(FT232B_EEPROM_STRUCTURE ee232b)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT232HEEPROMFTDIFT232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232HEEPROM(FT232H_EEPROM_STRUCTURE ee232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT232REEPROMFTDIFT232R_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT232REEPROM(FT232R_EEPROM_STRUCTURE ee232r)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteFT4232HEEPROMFTDIFT4232H_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteFT4232HEEPROM(FT4232H_EEPROM_STRUCTURE ee4232h)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteStringInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(String dataBuffer, Int32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteStringUInt32UInt32Ref">
+            <summary>Sets the shim of FTDI.Write(String dataBuffer, UInt32 numBytesToWrite, UInt32&amp; numBytesWritten)</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.ShimFTDI.WriteXSeriesEEPROMFTDIFT_XSERIES_EEPROM_STRUCTURE">
+            <summary>Sets the shim of FTDI.WriteXSeriesEEPROM(FT_XSERIES_EEPROM_STRUCTURE eeX)</summary>
+        </member>
+        <member name="T:FTD2XX_NET.Fakes.StubFTDI">
+            <summary>Stub type of FTD2XX_NET.FTDI</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.StubFTDI.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.StubFTDI.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FTD2XX_NET.Fakes.StubFTDI.InitializeStub">
+            <summary>Initializes a new instance of type StubFTDI</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.StubFTDI.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTD2XX_NET.Fakes.StubFTDI.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.FTD2XX_NETDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of FTD2XX_NET</summary>
+        </member>
+    </members>
+</doc>

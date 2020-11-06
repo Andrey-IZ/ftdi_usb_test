@@ -1,0 +1,7 @@
+obj/
+bin/
+*.pdb
+*.user
+*.dll
+*.suo
+WindowsFormsTestFTDI/

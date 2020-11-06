@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FTDI_USB.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FTDI_USB.Fakes.ShimForm1">
+            <summary>Shim type of FTDI_USB.Form1</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.#ctor(FTDI_USB.Form1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.Fakes.ShimForm1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.EnabledButtonsBoolean">
+            <summary>Sets the shim of Form1.EnabledButtons(Boolean isEnabled)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.EraseSectorWorker_ProgressChangedObjectProgressChangedEventArgs">
+            <summary>Sets the shim of Form1.EraseSectorWorker_ProgressChanged(Object sender, ProgressChangedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.EraseSectorWorker_RunWorkerCompletedObjectRunWorkerCompletedEventArgs">
+            <summary>Sets the shim of Form1.EraseSectorWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.FT245RDevice_RecvBytesAsyncObjectFTDI_ManagerReadRecvBytesEventArgs">
+            <summary>Sets the shim of Form1.FT245RDevice_RecvBytesAsync(Object sender, ReadRecvBytesEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.Form1_FormClosedObjectFormClosedEventArgs">
+            <summary>Sets the shim of Form1.Form1_FormClosed(Object sender, FormClosedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.InitializeComponent">
+            <summary>Sets the shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.IsOpenDeviceGet">
+            <summary>Sets the shim of Form1.get_IsOpenDevice()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.IsOpenDeviceSetBoolean">
+            <summary>Sets the shim of Form1.set_IsOpenDevice(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.OutputRecvMessagesTextBoxByteArray">
+            <summary>Sets the shim of Form1.OutputRecvMessages(TextBox txtBox, Byte[] data)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.ReadData">
+            <summary>Sets the shim of Form1.ReadData()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.SendBtn_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.SendBtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.SendDataByteArray">
+            <summary>Sets the shim of Form1.SendData(Byte[] data)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.SendDataPacket">
+            <summary>Sets the shim of Form1.SendData(Packet packet)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.SendDataUInt32UInt32">
+            <summary>Sets the shim of Form1.SendData(UInt32 code, UInt32 dataWord)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.WaitInt32">
+            <summary>Sets the shim of Form1.Wait(Int32 Timeout)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.butOpenFile_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.butOpenFile_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.button3_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.button3_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.button4_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.button4_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.buttonClose_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.buttonEraseSector_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonEraseSector_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.buttonOpen_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonOpen_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.buttonRecognize_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonRecognize_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.buttonSendFile_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonSendFile_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.initEventBindings">
+            <summary>Sets the shim of Form1.initEventBindings()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.AllInstances.textBox2_TextChangedObjectEventArgs">
+            <summary>Sets the shim of Form1.textBox2_TextChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.ShimForm1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.Constructor">
+            <summary>Sets the shim of Form1.Form1()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.DisposeBoolean">
+            <summary>Sets the shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.EnabledButtonsBoolean">
+            <summary>Sets the shim of Form1.EnabledButtons(Boolean isEnabled)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.EraseSectorWorker_ProgressChangedObjectProgressChangedEventArgs">
+            <summary>Sets the shim of Form1.EraseSectorWorker_ProgressChanged(Object sender, ProgressChangedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.EraseSectorWorker_RunWorkerCompletedObjectRunWorkerCompletedEventArgs">
+            <summary>Sets the shim of Form1.EraseSectorWorker_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.FT245RDevice_RecvBytesAsyncObjectFTDI_ManagerReadRecvBytesEventArgs">
+            <summary>Sets the shim of Form1.FT245RDevice_RecvBytesAsync(Object sender, ReadRecvBytesEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.Form1_FormClosedObjectFormClosedEventArgs">
+            <summary>Sets the shim of Form1.Form1_FormClosed(Object sender, FormClosedEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.InitializeComponent">
+            <summary>Sets the shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.IsOpenDeviceGet">
+            <summary>Sets the shim of Form1.get_IsOpenDevice()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.IsOpenDeviceSetBoolean">
+            <summary>Sets the shim of Form1.set_IsOpenDevice(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.OutputRecvMessagesTextBoxByteArray">
+            <summary>Sets the shim of Form1.OutputRecvMessages(TextBox txtBox, Byte[] data)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.ReadData">
+            <summary>Sets the shim of Form1.ReadData()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.SendBtn_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.SendBtn_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.SendDataByteArray">
+            <summary>Sets the shim of Form1.SendData(Byte[] data)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.SendDataPacket">
+            <summary>Sets the shim of Form1.SendData(Packet packet)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.SendDataUInt32UInt32">
+            <summary>Sets the shim of Form1.SendData(UInt32 code, UInt32 dataWord)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.WaitInt32">
+            <summary>Sets the shim of Form1.Wait(Int32 Timeout)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.butOpenFile_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.butOpenFile_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.button3_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.button3_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.button4_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.button4_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.buttonClose_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonClose_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.buttonEraseSector_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonEraseSector_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.buttonOpen_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonOpen_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.buttonRecognize_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonRecognize_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.buttonSendFile_ClickObjectEventArgs">
+            <summary>Sets the shim of Form1.buttonSendFile_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.initEventBindings">
+            <summary>Sets the shim of Form1.initEventBindings()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.ShimForm1.textBox2_TextChangedObjectEventArgs">
+            <summary>Sets the shim of Form1.textBox2_TextChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:FTDI_USB.Fakes.StubForm1">
+            <summary>Stub type of FTDI_USB.Form1</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AdjustFormScrollbars(System.Boolean)">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AdjustFormScrollbarsBoolean">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubForm1.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubForm1.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoScaleBaseSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAutoScroll">
+            <summary>Attaches delegates to emulate StubForm1.AutoScroll as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubForm1.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToAutoValidate">
+            <summary>Attaches delegates to emulate StubForm1.AutoValidate as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubForm1.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubForm1.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubForm1.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubForm1.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubForm1.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubForm1.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubForm1.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubForm1.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubForm1.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubForm1.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToRightToLeftLayout">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeftLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubForm1.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubForm1.Text as a property with a backing field.</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AutoScaleBaseSize">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScaleBaseSizeGet">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScaleBaseSizeSetSize">
+            <summary>Sets the stub of Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AutoScroll">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScrollGet">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoScrollSetBoolean">
+            <summary>Sets the stub of Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AutoSize">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoSizeGet">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoSizeSetBoolean">
+            <summary>Sets the stub of Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.AutoValidate">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoValidateGet">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.AutoValidateSetAutoValidate">
+            <summary>Sets the stub of Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.BackColor">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackColorGet">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackColorSetColor">
+            <summary>Sets the stub of Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.BackgroundImage">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackgroundImageGet">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.BackgroundImageLayout">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackgroundImageLayoutGet">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BackgroundImageSetImage">
+            <summary>Sets the stub of Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.BindingContext">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BindingContextGet">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.BindingContextSetBindingContext">
+            <summary>Sets the stub of ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.CanEnableIme">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CanEnableImeGet">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.CreateAccessibilityInstance">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CreateAccessibilityInstance01">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.CreateControlsInstance">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CreateControlsInstance01">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.CreateHandle">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CreateHandle01">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.CreateParams">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CreateParamsGet">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefWndProcMessageRef">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultImeMode">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultImeModeGet">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DefaultSize">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DefaultSizeGet">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.DestroyHandle">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DisplayRectangle">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DisplayRectangleGet">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.Dispose(System.Boolean)">
+            <summary>Sets the stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DisposeBoolean">
+            <summary>Sets the stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Focused">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.FocusedGet">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ForeColor">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ForeColorGet">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ForeColorSetColor">
+            <summary>Sets the stub of Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.GetService(System.Type)">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.InitLayout">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.InitializeStub">
+            <summary>Initializes a new instance of type StubForm1</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.IsInputChar(System.Char)">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.IsInputKeyKeys">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.MaximumSize">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.MaximumSizeGet">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.MaximumSizeSetSize">
+            <summary>Sets the stub of Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.MinimumSize">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.MinimumSizeGet">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.MinimumSizeSetSize">
+            <summary>Sets the stub of Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnActivatedEventArgs">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnAutoValidateChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnClosedEventArgs">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnCreateControl">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnCreateControl01">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDeactivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDeactivateEventArgs">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDockChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDragLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnEnter(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnEnterEventArgs">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnFontChangedEventArgs">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnFormClosedFormClosedEventArgs">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnFormClosingFormClosingEventArgs">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnGotFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnGotFocusEventArgs">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnHelpButtonClickedCancelEventArgs">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnLoadEventArgs">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnLostFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnLostFocusEventArgs">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMaximizedBoundsChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMaximumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMdiChildActivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMdiChildActivateEventArgs">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMenuComplete(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMenuCompleteEventArgs">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMenuStart(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMenuStartEventArgs">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMinimumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseEnterEventArgs">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseHover(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnMove(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnResize(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnResizeBegin(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnResizeBeginEventArgs">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnResizeEnd(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnResizeEndEventArgs">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnResizeEventArgs">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnScrollScrollEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnShown(System.EventArgs)">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnShownEventArgs">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnTextChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnTextChangedEventArgs">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnValidated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessDialogChar(System.Char)">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessDialogCharChar">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessDialogKeyKeys">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessMnemonic(System.Char)">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessMnemonicChar">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ProcessTabKey(System.Boolean)">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ProcessTabKeyBoolean">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.Refresh">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetBackColor">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetCursor">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetFont">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetForeColor">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetRightToLeft">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ResetText">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ResetText01">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.RightToLeftLayout">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.RightToLeftLayoutGet">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.RightToLeftLayoutSetBoolean">
+            <summary>Sets the stub of Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ScaleCoreSingleSingle">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ScrollToControlControl">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SelectBooleanBoolean">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.SetVisibleCore(System.Boolean)">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.ShowWithoutActivation">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ShowWithoutActivationGet">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="P:FTDI_USB.Fakes.StubForm1.Text">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.TextGet">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.TextSetString">
+            <summary>Sets the stub of Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ToString">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ToString01">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.UpdateDefaultButton">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.UpdateDefaultButton01">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ValidateChildren">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ValidateChildren01">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.ValidateChildrenValidationConstraints">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:FTDI_USB.Fakes.StubForm1.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:FTDI_USB.Fakes.StubForm1.WndProcMessageRef">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException">
+            <summary>Shim type of FTDI_USB.ManagePLIS.FTDIException</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.#ctor(FTDI_USB.ManagePLIS.FTDIException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.Constructor">
+            <summary>Sets the shim of FTDIException.FTDIException()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the shim of FTDIException.FTDIException(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.ConstructorString">
+            <summary>Sets the shim of FTDIException.FTDIException(String message)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDIException.ConstructorStringException">
+            <summary>Sets the shim of FTDIException.FTDIException(String message, Exception inner)</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager">
+            <summary>Shim type of FTDI_USB.ManagePLIS.FTDI_Manager</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.#ctor(FTDI_USB.ManagePLIS.FTDI_Manager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.Close">
+            <summary>Sets the shim of FTDI_Manager.Close()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.Dispose">
+            <summary>Sets the shim of FTDI_Manager.Dispose()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of FTDI_Manager.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.FT2DeviceGet">
+            <summary>Sets the shim of FTDI_Manager.get_FT2Device()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.GetDeviceList">
+            <summary>Sets the shim of FTDI_Manager.GetDeviceList()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.GetNumberOfDevices">
+            <summary>Sets the shim of FTDI_Manager.GetNumberOfDevices()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.OnRecvBytesByteArray">
+            <summary>Sets the shim of FTDI_Manager.OnRecvBytes(Byte[] recvBytes)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.OpenBySerialNumberStringUInt32UInt32">
+            <summary>Sets the shim of FTDI_Manager.OpenBySerialNumber(String serialNumber, UInt32 timeoutRead, UInt32 baudRate)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.ReadDataHandler_DoWorkObjectDoWorkEventArgs">
+            <summary>Sets the shim of FTDI_Manager.ReadDataHandler_DoWork(Object sender, DoWorkEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.ReadUInt32UInt32Boolean">
+            <summary>Sets the shim of FTDI_Manager.Read(UInt32 expectedNumberOfBytes, UInt32 timeout_ms, Boolean isDoEvents)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.RecvBytesAddFTDI_ManagerReadRecvBytesEventHandler">
+            <summary>Sets the shim of FTDI_Manager.add_RecvBytes(ReadRecvBytesEventHandler value)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.RecvBytesRemoveFTDI_ManagerReadRecvBytesEventHandler">
+            <summary>Sets the shim of FTDI_Manager.remove_RecvBytes(ReadRecvBytesEventHandler value)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.StartReadAsyncUInt32UInt32">
+            <summary>Sets the shim of FTDI_Manager.StartReadAsync(UInt32 expectedNumberOfBytes, UInt32 timeoutRead)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.StatusGet">
+            <summary>Sets the shim of FTDI_Manager.get_Status()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.StopReadAsync">
+            <summary>Sets the shim of FTDI_Manager.StopReadAsync()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.AllInstances.WriteByteArray">
+            <summary>Sets the shim of FTDI_Manager.Write(Byte[] BytesForWriting)</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.Close">
+            <summary>Sets the shim of FTDI_Manager.Close()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.Constructor">
+            <summary>Sets the shim of FTDI_Manager.FTDI_Manager()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.Dispose">
+            <summary>Sets the shim of FTDI_Manager.Dispose()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.DisposeBoolean">
+            <summary>Sets the shim of FTDI_Manager.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.FT2DeviceGet">
+            <summary>Sets the shim of FTDI_Manager.get_FT2Device()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.GetDeviceList">
+            <summary>Sets the shim of FTDI_Manager.GetDeviceList()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.GetNumberOfDevices">
+            <summary>Sets the shim of FTDI_Manager.GetNumberOfDevices()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.OnRecvBytesByteArray">
+            <summary>Sets the shim of FTDI_Manager.OnRecvBytes(Byte[] recvBytes)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.OpenBySerialNumberStringUInt32UInt32">
+            <summary>Sets the shim of FTDI_Manager.OpenBySerialNumber(String serialNumber, UInt32 timeoutRead, UInt32 baudRate)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ReadDataHandler_DoWorkObjectDoWorkEventArgs">
+            <summary>Sets the shim of FTDI_Manager.ReadDataHandler_DoWork(Object sender, DoWorkEventArgs e)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ReadUInt32UInt32Boolean">
+            <summary>Sets the shim of FTDI_Manager.Read(UInt32 expectedNumberOfBytes, UInt32 timeout_ms, Boolean isDoEvents)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.RecvBytesAddFTDI_ManagerReadRecvBytesEventHandler">
+            <summary>Sets the shim of FTDI_Manager.add_RecvBytes(ReadRecvBytesEventHandler value)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.RecvBytesRemoveFTDI_ManagerReadRecvBytesEventHandler">
+            <summary>Sets the shim of FTDI_Manager.remove_RecvBytes(ReadRecvBytesEventHandler value)</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs">
+            <summary>Shim type of FTDI_USB.ManagePLIS.FTDI_Manager+ReadRecvBytesEventArgs</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.#ctor(FTDI_USB.ManagePLIS.FTDI_Manager.ReadRecvBytesEventArgs)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.AllInstances.RecvBytesGet">
+            <summary>Sets the shim of ReadRecvBytesEventArgs.get_RecvBytes()</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.ConstructorByteArray">
+            <summary>Sets the shim of ReadRecvBytesEventArgs.ReadRecvBytesEventArgs(Byte[] recvbytes)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.ShimReadRecvBytesEventArgs.RecvBytesGet">
+            <summary>Sets the shim of ReadRecvBytesEventArgs.get_RecvBytes()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.StartReadAsyncUInt32UInt32">
+            <summary>Sets the shim of FTDI_Manager.StartReadAsync(UInt32 expectedNumberOfBytes, UInt32 timeoutRead)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.StatusGet">
+            <summary>Sets the shim of FTDI_Manager.get_Status()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.StopReadAsync">
+            <summary>Sets the shim of FTDI_Manager.StopReadAsync()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.ShimFTDI_Manager.WriteByteArray">
+            <summary>Sets the shim of FTDI_Manager.Write(Byte[] BytesForWriting)</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.StubFTDIException">
+            <summary>Stub type of FTDI_USB.ManagePLIS.FTDIException</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubFTDIException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubFTDIException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.InitializeStub">
+            <summary>Initializes a new instance of type StubFTDIException</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDIException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager">
+            <summary>Stub type of FTDI_USB.ManagePLIS.FTDI_Manager</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.Dispose(System.Boolean)">
+            <summary>Sets the stub of FTDI_Manager.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.DisposeBoolean">
+            <summary>Sets the stub of FTDI_Manager.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.InitializeStub">
+            <summary>Initializes a new instance of type StubFTDI_Manager</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.OnRecvBytes(System.Byte[])">
+            <summary>Sets the stub of FTDI_Manager.OnRecvBytes(Byte[] recvBytes)</summary>
+        </member>
+        <member name="F:FTDI_USB.ManagePLIS.Fakes.StubFTDI_Manager.OnRecvBytesByteArray">
+            <summary>Sets the stub of FTDI_Manager.OnRecvBytes(Byte[] recvBytes)</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket">
+            <summary>Shim type of FTDI_USB.Workers.PacketWorkers.Packet</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.#ctor(FTDI_USB.Workers.PacketWorkers.Packet)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.AllInstances.CodeGet">
+            <summary>Sets the shim of Packet.get_Code()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.AllInstances.DataGet">
+            <summary>Sets the shim of Packet.get_Data()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.AllInstances.GetBytesUInt16">
+            <summary>Sets the shim of Packet.GetBytes(UInt16 dataWord)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.AllInstances.ToBytes">
+            <summary>Sets the shim of Packet.ToBytes()</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.CodeGet">
+            <summary>Sets the shim of Packet.get_Code()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.ConstructorUInt32ListOfUInt16PacketBytesOrders">
+            <summary>Sets the shim of Packet.Packet(UInt32 code, List`1&lt;UInt16&gt; data, BytesOrders bytesOrder)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.ConstructorUInt32UInt32PacketBytesOrders">
+            <summary>Sets the shim of Packet.Packet(UInt32 code, UInt32 dataWord, BytesOrders bytesOrder)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.DataGet">
+            <summary>Sets the shim of Packet.get_Data()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.GetBytesUInt16">
+            <summary>Sets the shim of Packet.GetBytes(UInt16 dataWord)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.GetUInt16ByteArrayInt32PacketBytesOrders">
+            <summary>Sets the shim of Packet.GetUInt16(Byte[] dataBytes, Int32 startIndex, BytesOrders bytesOrder)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.ParseByteArrayPacketBytesOrders">
+            <summary>Sets the shim of Packet.Parse(Byte[] recvBytes, BytesOrders byteOrder)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.StaticConstructor">
+            <summary>Sets the shim of Packet.Packet()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacket.ToBytes">
+            <summary>Sets the shim of Packet.ToBytes()</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException">
+            <summary>Shim type of FTDI_USB.Workers.PacketWorkers.PacketException</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.#ctor(FTDI_USB.Workers.PacketWorkers.PacketException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.Constructor">
+            <summary>Sets the shim of PacketException.PacketException()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.ConstructorSerializationInfoStreamingContext">
+            <summary>Sets the shim of PacketException.PacketException(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.ConstructorString">
+            <summary>Sets the shim of PacketException.PacketException(String message)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.ShimPacketException.ConstructorStringException">
+            <summary>Sets the shim of PacketException.PacketException(String message, Exception inner)</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket">
+            <summary>Stub type of FTDI_USB.Workers.PacketWorkers.Packet</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.#ctor(System.UInt32,System.Collections.Generic.List{System.UInt16},FTDI_USB.Workers.PacketWorkers.Packet.BytesOrders)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.#ctor(System.UInt32,System.UInt32,FTDI_USB.Workers.PacketWorkers.Packet.BytesOrders)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.InitializeStub">
+            <summary>Initializes a new instance of type StubPacket</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacket.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException">
+            <summary>Stub type of FTDI_USB.Workers.PacketWorkers.PacketException</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.#ctor(System.String,System.Exception)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubPacketException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubPacketException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.InitializeStub">
+            <summary>Initializes a new instance of type StubPacketException</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:FTDI_USB.Workers.PacketWorkers.Fakes.StubPacketException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.FTDI_USBDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of FTDI_USB</summary>
+        </member>
+    </members>
+</doc>
